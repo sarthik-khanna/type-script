@@ -73,5 +73,23 @@ class student {
 }
 let s1 = new student("khanna", 21);
 console.log(s1);
+/// static members
+class shery {
+    static getvalue() {
+        return Math.random();
+    }
+}
+shery.version = 1.0;
+console.log(shery.version);
+console.log(shery.getvalue());
+// abstract classes 
+class cookingEssentials {
+    constructor(gas, gasname) {
+        this.gas = gas;
+        this.gasname = gasname;
+    }
+}
+class sabji extends cookingEssentials {
+}
 export {};
 //# sourceMappingURL=app2.js.map

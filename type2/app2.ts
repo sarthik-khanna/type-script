@@ -89,3 +89,28 @@ class student{
 let s1 = new student("khanna",21)
 console.log(s1)
 
+
+/// static members
+
+class shery{
+    static version = 1.0
+
+    static getvalue(){
+        return Math.random()
+    }
+}
+console.log(shery.version)
+console.log(shery.getvalue())
+
+
+// abstract classes 
+
+class cookingEssentials {
+    constructor(protected gas:number , protected gasname:string){
+
+    }
+}
+
+class sabji extends cookingEssentials{
+     
+}
