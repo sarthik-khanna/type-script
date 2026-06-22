@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let arr = [1, 2, 3, "khanna"];
 let arr1 = [1, 2, 3, 4];
 // tuples 
@@ -62,7 +60,8 @@ function getdataUser(obj) {
 getdataUser({
     name: "khanna",
     email: "khanna28@gmail.com",
-    password: "009"
+    password: "009",
+    role: "guest"
 });
 let l;
 function getvalue(obj) {
@@ -74,9 +73,12 @@ function xyz3(a) {
 // xyz3();
 // classes and objects
 class bottle {
-    name = "bislery";
-    price = 20;
-    color = "blue";
+    constructor() {
+        this.name = "bislery";
+        this.price = 20;
+        this.color = "blue";
+    }
 }
 let b1 = new bottle();
+export {};
 //# sourceMappingURL=app.js.map

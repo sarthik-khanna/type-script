@@ -99,7 +99,11 @@ interface User{
     password:string
 }
 
-function getdataUser (obj:User){
+
+interface Admin2 extends User{
+role: string;
+}
+function getdataUser (obj:Admin2){
 
 }
 
@@ -107,7 +111,9 @@ function getdataUser (obj:User){
 getdataUser({
     name:"khanna",
     email:"khanna28@gmail.com",
-    password:"009"
+    password:"009",
+    role:"guest"
+
 })
 
 
