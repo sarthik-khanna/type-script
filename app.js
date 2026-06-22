@@ -71,5 +71,12 @@ getvalue("khanna");
 function xyz3(a) {
     a.getDetails;
 }
-xyz3();
+// xyz3();
+// classes and objects
+class bottle {
+    name = "bislery";
+    price = 20;
+    color = "blue";
+}
+let b1 = new bottle();
 //# sourceMappingURL=app.js.map

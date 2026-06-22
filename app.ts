@@ -143,21 +143,20 @@ function xyz3(a:Admin){
     a.getDetails
 }
 
-xyz3();
+// xyz3();
 
 
-// khanna interface 
+// classes and objects
 
 
-interface khanna {
-   name:string,
-   rollno : number,
-   id:string 
+class bottle {
+    name="bislery";
+    price= 20;
+    color= "blue"
 }
 
+let b1 = new bottle();
 
-function skinfo(obj : khanna){
 
-}
 
-skinfo({name:"sarthik",rollno:2320495,id:"jatt"})
+
