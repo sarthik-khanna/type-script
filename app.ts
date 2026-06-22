@@ -143,4 +143,21 @@ function xyz3(a:Admin){
     a.getDetails
 }
 
-xyz3()
+xyz3();
+
+
+// khanna interface 
+
+
+interface khanna {
+   name:string,
+   rollno : number,
+   id:string 
+}
+
+
+function skinfo(obj : khanna){
+
+}
+
+skinfo({name:"sarthik",rollno:2320495,id:"jatt"})
