@@ -38,3 +38,10 @@ let n1 = new body("hola");
 let n2 = new body(65);
 
 console.log(n1,n2)
+
+
+
+
+
+
+

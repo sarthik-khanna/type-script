@@ -114,3 +114,9 @@ class cookingEssentials {
 class sabji extends cookingEssentials{
      
 }
+
+
+import { Addpayments } from "./payments.js";
+
+let a = Addpayments(12);
+console.log(a)

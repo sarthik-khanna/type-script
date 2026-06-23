@@ -91,5 +91,7 @@ class cookingEssentials {
 }
 class sabji extends cookingEssentials {
 }
-export {};
+import { Addpayments } from "./payments.js";
+let a = Addpayments(12);
+console.log(a);
 //# sourceMappingURL=app2.js.map
